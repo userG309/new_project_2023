@@ -1,0 +1,202 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="GE" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="850.4,1916.8" sap2010:WorkflowViewState.IdRef="GE_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>UiPath.Shared.ObjectLibrary</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>UiPath.CV.Activities.Interfaces</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>UiPath.Excel.Model</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <sap:WorkflowViewStateService.ViewState>
+    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+      <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
+    </scg:Dictionary>
+  </sap:WorkflowViewStateService.ViewState>
+  <Sequence sap:VirtualizedContainerService.HintSize="545.6,1852" sap2010:WorkflowViewState.IdRef="Sequence_6">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Yahoo Finance - Stock Market Live, Quotes, Business &amp; Finance News" sap:VirtualizedContainerService.HintSize="483.2,1143.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="77e9c306-4d77-4622-9662-0621682b47b6" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,926.4" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="temp" />
+              <Variable x:TypeArguments="x:String" Name="str" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT yfin-usr-qry'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="77e9c306-4d77-4622-9662-0621682b47b6" Text="nvda[k(Enter)]" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://finance.yahoo.com/quote/GOOG?p=GOOG&amp;.tsrc=fin-srch" DesignTimeRectangle="464, 251, 696, 44" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'INPUT yfin-usr-qry'" FullSelectorArgument="&lt;webctrl id='yfin-usr-qry' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='yfin-usr-qry' tag='INPUT' type='text' class='Bgc(t) Bd Bdrsbstart(2px)! Bdc(#b0b0b0) Bdendw(0) Bdrs(0) Bdrststart(2px)! Bxsh(n) Bxz(bb) D(b) Fz(15px) H(inh) M(0) O(0) Px(10px) W(100%) Bdc($c-fuji-blue-1-c):f Bdc(#949494):h finsrch-inpt' aaname='Search' /&gt;" Guid="cc0f0d97-7675-475a-9d7d-9cc138af44f3" InformativeScreenshot="bd7ad19d054c38dc97ac4108d7debac2.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Alphabet Inc. (GOOG) Stock Price, News, Quote &amp;amp; History - Yahoo Finance' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="1160, 251, 113, 44" ElementType="Button" FriendlyName="'BUTTON header-desktop-s…'" FullSelectorArgument="&lt;webctrl id='header-desktop-search-button' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='header-desktop-search-button' tag='BUTTON' type='submit' class='Bgc($c-fuji-blue-1-b) Bd(n) Bdrsbend(2px) Bdrstend(2px) D(b) H(100%) M(0) P(0) rapid-noclick-resp W(100%) Bgc($actionBlueHover):h submit-btn finsrch-btn' aaname='' /&gt;" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Historical Data'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="77e9c306-4d77-4622-9662-0621682b47b6" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://finance.yahoo.com/quote/NVDA/history?p=NVDA" CvTextArea="620, 691, 116, 16" CvTextArgument="Historical Data" CvType="Text" DesignTimeRectangle="622, 536, 114, 20" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Historical Data'" FullSelectorArgument="&lt;webctrl aaname='Historical Data' parentid='quote-nav' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Historical Data' parentid='quote-nav' tag='SPAN' type='' class='' check:innerText='Historical Data' /&gt;" Guid="4a370661-d00e-461d-810b-eb8d70253a5c" InformativeScreenshot="b8ef9692c6475d5fd1bce0c2f50db5d1.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='NVIDIA Corporation (NVDA) Stock Historical Prices &amp;amp; Data - Yahoo Finance' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Nov 21,'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="77e9c306-4d77-4622-9662-0621682b47b6" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://finance.yahoo.com/quote/NVDA/history?period1=1668988800&amp;period2=1700524800&amp;interval=1d&amp;filter=history&amp;frequency=1d&amp;includeAdjustedClose=true" CvElementArea="548, 521, 22, 22" CvTextArea="309, 522, 235, 17" CvTextArgument="Nov 21, 2022 - Nov 21, 2023" CvType="ArrowButton" DesignTimeRectangle="310, 521, 254, 21" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Nov 21,'" FullSelectorArgument="&lt;webctrl aria-role='button' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='button' type='' tag='DIV' class='Pos(r) D(ib) C($linkColor) Cur(p)' aaname='' check:innerText='Nov 21, 2022 - Nov 21, 2023' /&gt;" Guid="2a1d8e68-14d6-4a72-8004-c597eb1d8c5f" InformativeScreenshot="18f6a1e0782081b15d28f5a63f30180e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='NVIDIA Corporation (NVDA) Stock Historical Prices &amp;amp; Data - Yahoo Finance' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CvElementArea="1156, 509, 129, 47" CvTextArea="1196, 523, 47, 20" CvTextArgument="Apply" CvType="Button" DesignTimeRectangle="1199, 523, 44, 20" ElementType="Text" FriendlyName="'Apply'" FullSelectorArgument="&lt;webctrl aaname='Apply' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Apply' tag='SPAN' type='' class='' check:innerText='Apply' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAYCAYAAAC8/X7cAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAK2SURBVFhH7VbBitRAEPUP/JP5g/2EHL3tcS7C/MGAl7kIcxB2wcOIIMHTeJERwRxkGRAxiEjEwwgiARGDCI4XI4KUrzpVnepMZ1eXwO7KFjwyXV3dqVf1uidXrl4nusi4JHDWuCRw1vh/CYxuEY3vAbfj80Mj/0FEwDQydxx6CWTfsSHbb6LDyPzQ2PC7BiOQElUu+8aKo0jMwBiUwOy9y5uKj82TPkNSnZjxM7z0E1EKsvPX+P2VqMR49TiMTbHXBpjcxRyeJeJ4PMfY7mcJzHg/7JU9CWOSp41/vW59UQL5T2wGzG/IxrDlQRgzfdf4t6xdyKz+1YzZqrdt3FrmtzwP1PjtDM/sQRtnCSQvXQTRF/yWecYSY7YMRVPfLgGwZKs/NOOFdKF8FcZ5AiW6AaLs23uEceP2hB0BWIF9tTPaYZtgICHsVwhRXzg88SoinM2xrGHsENCEcyTD4xH07wwLJyZOCWyetz7GChJh44R5rARSE+OTQZJ6QXTPgJKs3jTjMZ5sJbrj9wFCAioZtDrlK1SwkWrY1vUR6PqjBCL+LgF/kUjh9FZMpduKgIDXXo/VqIrG9hFIceCtv4+AS9j4dwgAmnSOvJw0oY7uZRIQ8O2H3pcvDHAoa57AwZ5JbJQAqpPzBQDL0Dn2xQiMcFO5/YyeYwR8QUUBOdbpnKIl0GmZDWJoYqptJcByy4Vw/k186IIeTiVQozgrLgZiK7mxLPkYAXuYbfEsPIEJqsxmr0ALf3NIG5VAhfFWXwLjRGc323VKoHCntrUS79mTGEaUAHAo6/ryCg/xPyCQECq1D8ns4/upG2clpN9XSecg9sJK0lwgFsMQiMwr+g7xSUjuI2n547KS7OLcEtB1LKvFMV/Epyagcrhm9B5DcqeJs3r/G0zxvbN4ePK6UxM4L7jgBIj+AGOXiXB7XZFKAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Download'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="77e9c306-4d77-4622-9662-0621682b47b6" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://finance.yahoo.com/quote/NVDA/history?period1=1668988800&amp;period2=1700524800&amp;interval=1d&amp;filter=history&amp;frequency=1d&amp;includeAdjustedClose=true" CvTextArea="1221, 590, 75, 15" CvTextArgument="Download" CvType="Text" DesignTimeRectangle="1198, 588, 98, 21" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Download'" FullSelectorArgument="&lt;webctrl aaname='Download' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Download' tag='A' type='' class='Fl(end) Mt(3px) Cur(p)' check:innerText='Download' /&gt;" Guid="431960cd-ffb2-4083-8365-94427c074896" InformativeScreenshot="9f36ba03acf3538a2084c059fa1e2739.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='NVIDIA Corporation (NVDA) Stock Historical Prices &amp;amp; Data - Yahoo Finance' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1098" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAJdSURBVFhHY0hgvPR/IPGoA0YdMHwdUKN36/+TK99R8Lq6FxjqaOaAY0ve/UcHzZZ3MNTRxAEF0tf+//71D2otBDw49w2rWpo4YEvHK6i1CDAz5hFWtVR3QBr35f9f3v2BWgsB757++p/Mil09VgfcPvYFqhUCDs55i6FmfcMLqCwE3DnxFSy+OOcpVAQBVlU8x9APw1gdMCXkAVQrBPz4+vd/psAVuHwSyyWwr5DBtIiH/xOZLv1/cfsHVAQCfnz5+z9L8CqK+cgYqwMSmS/9f33/J9QICFia/xQuj+7Ad09+gR01MQBVHAT2THmDYjY6xpkGlhagBuWz69/hctf2fYaKQsDqSkgQ3ziEGnV///77X6ZyA64PG8bpgAzeK/+/fURNTB2Od/9Xat6E8iDg57e//7OFr/5P5bwMDn5kfGAWZtpBxzgdAMLbe1Cz06nVH/7vnvQayoMAZEtAjk5hv4xiBiGM1wFFctf///mNKFBA7G+fUEOlSvvm/xyRq/8v7fj0/9+/f2A1IEdiMw8bxusAED6x4j3UKkxwedcnsJojCzGL3emRDzHMwoYJOqDR7DbUSEzQ530frObJ1e9QEQTY2IRZ8WDDBB0AwreOoKZuEHh+8wdcfs/UN1BRCABFRYs1ZsWDDRPlgMlBmPl7UfYTuDyo+N077c3/Nw9//n94/hu4UELWjw8T5YB+n/tQayHg64c//9N5ECUjJZgoB6AXPKDsiU0dOZigA2oNbkGthYC/f/79L1a4jlUtOZigA44uQs1ip9d+wKqOXExUFNASjzpg1AED7IBL/wEEb/bMxqNS/AAAAABJRU5ErkJggg==" InformativeScreenshot="ec670a2b5505badd339c0bec5e7a3513.jpg" Selector="&lt;html app='chrome.exe' title='Yahoo Finance - Stock Market Live, Quotes, Business &amp;amp; Finance News' /&gt;" Title="Alphabet Inc. (GOOG) Stock Price, News, Quote &amp; History - Yahoo Finance" Url="https://finance.yahoo.com/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: NVDA (1).xlsx - Microsoft Excel Online" sap:VirtualizedContainerService.HintSize="483.2,556.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" ScopeGuid="855835e2-9bf5-458e-ba59-060b25aa1151" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence sap:VirtualizedContainerService.HintSize="449.6,340" sap2010:WorkflowViewState.IdRef="Sequence_10">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,224.8" sap2010:WorkflowViewState.IdRef="NTypeInto_4" Version="V3" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1098" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADkSURBVDhPY0AGiovT3gPxf2zY+EgjNvweqhUCsGmEYSyawRiqFQKwaYRhbJpBmEGgxvE9EP/HhwXrnLFqBmGQAVg1oWPBMDOsLoMbULl1yn8QyFrb8d92aiqY3bFvAcKQQGP8BoDww/fPwfjwvQtgGlmOKAN85haCbQYBEBtZjigDopfWQLX/B7OR5TjsFFD4MAw3QL7FF+58mBdAYjB5ggZMO7YGbLNeTyTcK8iBSNAAQhifAQQTkkC5/X8ePen/EjHmGBiaiCEApAgXFnLVJGwANgWEMFQrBAAF3qMrwI/N3wMAWZLoJAon4YQAAAAASUVORK5CYII=" InformativeScreenshot="5a9d38ce86c2a36a417ea94ad4861306.jpg" Selector="&lt;html app='chrome.exe' title='NVDA (1).xlsx - Microsoft Excel Online' /&gt;" Title="Downloads" Url="https://onedrive.live.com/edit.aspx?resid=780972A884FDD215!362" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
